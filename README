@@ -11,11 +11,10 @@ it from the MongoDB.
 This repo assumes that you already have Node, Redis and MongoDB setup on your
 computer.
 
-For Ubuntu, You can install them with following commands:
-1- sudo apt install mongodb
-2- sudo apt install redis-server
+For windows, You must have WSL installed on your system, Redis and Docker dont run on Windows.
+
+To install WSL : 
 
 The available routes are:
 1- /add-student
-2- /edit-student
-3- /post-student
+2- /edit-student/$(Student_id)
