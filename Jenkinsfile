@@ -3,7 +3,7 @@ pipeline {
 
     stages {
        
-        stage('Checkout') {
+        stage('Checkout'){
             steps{
                 checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/ankit-jagtap-devops/NorthLadder-Assignment.git']]])
             }
