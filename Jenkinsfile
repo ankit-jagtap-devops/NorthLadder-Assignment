@@ -38,7 +38,7 @@ pipeline {
                 ) {
                     // Deploy using Kubectl
                     sh "kubectl apply -f deeployment.yaml"
-                    sh "kubectl apply -f service-definations.yaml
+                    sh "kubectl apply -f service-definations.yaml"
                 }
             }
         }
